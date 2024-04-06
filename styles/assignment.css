@@ -5,4 +5,141 @@ body {
   font-weight: 400; /* Adjust weight as needed */
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  max-width: 2000px;
+}
+
+/* banner related styles*/
+header {
+  margin: 0px 30px 0px 30px;
+}
+
+.banner {
+  background-image: url(../resources/Banner\ Image.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 1320px;
+  height: 600px;
+  padding: 50px 350px 300px 350px;
+  text-align: center;
+  /* position: relative; */
+  width: auto;
+  background-blend-mode: darken;
+  /* max-width: 1140px; */
+}
+.banner::before {
+  /* position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1); */
+}
+.banner-greeting {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 50px;
+  color: #fdfefe;
+
+  justify-content: center;
+}
+.banner-title {
+  color: #fdfefe;
+  font-size: 72px;
+  font-weight: 850;
+  margin-top: 4px;
+  padding-top: 0px;
+}
+.offer {
+  text-align: center;
+  position: relative;
+}
+.offer-title {
+  color: #ff5722;
+  font-size: 65px;
+  margin-bottom: 15px;
+}
+.offer-deal {
+  color: #ff5722;
+  font-size: 24px;
+  font-weight: 550;
+  letter-spacing: 0px;
+  margin-bottom: 6px;
+}
+.offer-category {
+  margin-top: 0px;
+  font-size: 45px;
+  font-weight: 600;
+}
+/* midnight section style*/
+.midnight {
+  background-image: url(../resources/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  /* width: 1320px;
+  height: 600px;
+  margin: 50px 250px 50px 400px; */
+}
+.mid {
+  padding: 240px;
+}
+.section-title {
+  font-size: 70px;
+  text-align: left;
+  color: #fdfefe;
+  margin-bottom: 5px;
+}
+
+.midnight-description {
+  color: #fdfefe;
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.join {
+  color: #fdfefe;
+  background-color: black;
+  border: 0;
+  padding: 2px 3px;
+  border-radius: 4px;
+}
+.join:hover {
+  border: 1px solid white;
+}
+
+.icon #top {
+  color: red;
+  text-align: top left;
+}
+.icon {
+  background-color: white;
+  padding: 330px 330px 0px 330px;
+}
+
+.icon-title {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.product1 {
+  margin-top: 10px;
+  padding-left: 550px;
+  display: flex;
+  gap: 35px;
+}
+.product1 img {
+  gap: 30px;
+}
+.product2 {
+  margin-top: 20px;
+  padding-left: 550px;
+  display: flex;
+  gap: 35px;
+}
+img:hover {
+  border: 7px solid black;
 }
